@@ -72,3 +72,37 @@ for letter in name:
 """ x = ["This", "Sentence"] """
 #len = length
 """ print(len("This Sentence")) """
+
+friend_comes = True
+money = True
+
+""" def and_movies(friend, money): """
+    #dont need to add "== True"
+"""     if friend == True and money == True:
+        print("Going to the movies")
+    else:
+        print("I have no friends or i have no money")
+and_movies(friend_comes, money) """
+
+""" def or_movies(friend, money):
+    if friend or money:
+        print("Going to the movies")
+    else:
+        print("I have no friends and i have no money")
+or_movies(friend_comes, money) """
+
+""" homework = True
+def not_movies(homework):
+    if not homework:
+        print("move time")
+    else:
+        print("homework time, i hate russian")
+not_movies(homework)
+ """
+
+#prints the remainder
+""" print(5 % 3) """
+
+""" def factor(x,y):
+    if x % y == 0:
+        print("Y us a factor of {x}") """

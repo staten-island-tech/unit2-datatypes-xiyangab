@@ -21,6 +21,33 @@ print(y)
 print(z)
  """
 #challenge
-sentence = input("Please input any sentence.")
-sentence.split( )
-print(len(sentence))
+""" sentence = input("Please input any sentence.")
+words = sentence.split()
+print(len(words)) """
+
+#booleans and control flow
+""" day_of_week = input("what day is it?")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+#f strings
+""" x = "test"
+print(f"hello {x}")
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+#challenge 1
+number = input('Please input any number.')
+def odd():
+    if not number % 2 == 0:
+        print('This number is odd.')
+    else:
+        print('This number is even.')

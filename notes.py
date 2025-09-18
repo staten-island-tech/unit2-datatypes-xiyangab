@@ -73,8 +73,8 @@ for letter in name:
 #len = length
 """ print(len("This Sentence")) """
 
-friend_comes = True
-money = True
+""" friend_comes = True
+money = True """
 
 """ def and_movies(friend, money): """
     #dont need to add "== True"

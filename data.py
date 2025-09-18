@@ -45,9 +45,30 @@ else:
     print('cold') """
 
 #challenge 1
-number = input('Please input any number.')
-def odd():
-    if not number % 2 == 0:
-        print('This number is odd.')
-    else:
-        print('This number is even.')
+""" x = int(input('Please input a number.'))
+if x % 2 == 0:
+    print('This number is even.')
+else: 
+    print('This number is odd.') """
+
+#challenge 2
+""" bill = int(input('Please enter the bill amount.'))
+service = input('Was the service bad, okay, good, or great?')
+    
+if service == 'bad':
+    print(bill * 0)
+elif service == 'okay':
+    print(bill * .15)
+elif service == 'good':
+    print(bill * .20)
+elif service == 'great':
+    print(bill * .25)
+ """
+
+#challenge 3
+number = int(input('Type a number for all factors.'))
+divisor = 1
+def factors(x,y):
+    for i in range():
+        if number % divisor == 0:
+            print('1, ')

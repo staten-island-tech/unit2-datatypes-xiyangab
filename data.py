@@ -66,9 +66,35 @@ elif service == 'great':
  """
 
 #challenge 3
-number = int(input('Type a number for all factors.'))
+""" number = int(input('Type a number for all factors.'))
 divisor = 1
-def factors(x,y):
-    for i in range():
-        if number % divisor == 0:
-            print('1, ')
+for i in range(number):
+    if number % divisor == 0:
+        print(divisor)
+    divisor = divisor + 1 """
+
+#challenge 4
+x = int(input('Please type the first number.'))
+y = int(input('Please type the second number.'))
+divisor = 1
+
+for i in range(x):
+    set1 = []
+    if x % divisor == 0:
+        set1.append(divisor)
+    divisor = divisor + 1
+
+divisor = 1
+
+for i in range(y):
+    set2 = []
+    if y % divisor == 0:
+        set2.append(divisor)
+    divisor = divisor + 1
+
+list = 0
+
+for i in range(set1 + set2):
+    if set1[list] == set2[list]:
+        list = list + 1
+        

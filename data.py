@@ -76,25 +76,11 @@ for i in range(number):
 #challenge 4
 x = int(input('Please type the first number.'))
 y = int(input('Please type the second number.'))
-divisor = 1
-
-for i in range(x):
-    set1 = []
-    if x % divisor == 0:
-        set1.append(divisor)
-    divisor = divisor + 1
 
 divisor = 1
-
-for i in range(y):
-    set2 = []
-    if y % divisor == 0:
-        set2.append(divisor)
+gcf = 0
+for i in range(x + 1):
+    if x % divisor == 0 and y % divisor == 0:
+        gcf = divisor
     divisor = divisor + 1
-
-list = 0
-
-for i in range(set1 + set2):
-    if set1[list] == set2[list]:
-        list = list + 1
-        
+print(gcf)
